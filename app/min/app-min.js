@@ -1,0 +1,1 @@
+angular.module("YouTube Feed",["ngRoute"]).value("clientId","403398258696-gq8plqe2mkhtoggmi2a4esduh4paf5dn.apps.googleusercontent.com").value("videoList","https://www.googleapis.com/youtube/v3/channels").value("apiKey","AIzaSyCtqoUiPBtbyl0ffipqLyhahc5SUs8K-nU").config(function(e){e.when("/",{templateUrl:"app/views/main.html"})});

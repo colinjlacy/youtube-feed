@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="YouTube Feed">
+<head>
+	<title>Not Scott's YouTube Channel</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css"/>
+
+	<script src="angular/angular.min.js"></script>
+	<script src="angular/angular-route.min.js"></script>
+	<script src="app/app.js"></script>
+	<script src="app/controllers/youtube-ctrl.js"></script>
+
+</head>
+<body>
+	<header class="jumbotron">
+		<div class="container text-center">
+			<h1>A YouTube Feed</h1>
+			<p>Awesome Sauce 'em!</p>
+		</div>
+	</header>
+	<section class="container">
+		<div class="row" ng-controller="youTubeCtrl">
+			<ng-view></ng-view>
+		</div>
+	</section>
+</body>
+</html>

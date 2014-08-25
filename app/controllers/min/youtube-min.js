@@ -1,0 +1,1 @@
+angular.module("YouTube Feed").controller("youTubeCtrl",function(e,o,t,n){!function(){o({method:"GET",url:"https://www.googleapis.com/youtube/v3/search",params:{part:["contentDetails","id"],channelId:"expertboxing",key:t,maxResults:20}}).success(function(o){console.log(o),e.videos=o})}()});

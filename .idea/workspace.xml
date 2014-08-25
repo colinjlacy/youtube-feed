@@ -23,10 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="82" selection-start="163" selection-end="163" vertical-scroll-proportion="0.120192304" vertical-offset="0" max-vertical-offset="624">
+            <state line="9" column="34" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="14" selection-start="20" selection-end="20" vertical-scroll-proportion="0.024038462" vertical-offset="0" max-vertical-offset="624">
               <folding />
             </state>
           </provider>
@@ -322,11 +331,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="14" selection-start="20" selection-end="20" vertical-scroll-proportion="0.032258064" vertical-offset="0" max-vertical-offset="465" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/services/get-playlists.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="34" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
@@ -376,7 +380,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="82" selection-start="163" selection-end="163" vertical-scroll-proportion="0.120192304" vertical-offset="0" max-vertical-offset="624">
+        <state line="9" column="34" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="14" selection-start="20" selection-end="20" vertical-scroll-proportion="0.024038462" vertical-offset="0" max-vertical-offset="624">
           <folding />
         </state>
       </provider>

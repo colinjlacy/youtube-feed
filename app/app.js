@@ -7,7 +7,7 @@ angular.module("YouTube Feed", [
 	// the base url for listing playlists
 	.value("playlists", "https://www.googleapis.com/youtube/v3/playlists")
 	// Google developers API key
-	.value("apiKey", "")
+	.value("apiKey", "YOUR API KEY")
 	// channel ID for the channel in question
 	.value("channelId", "UCrYqUsxL8UbAbk6wP-9_tig")
 	// playlist id for the Uploads playlist, the default playlist for all uploaded vids on a YouTube Channel

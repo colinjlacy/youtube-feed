@@ -1,0 +1,64 @@
+/* Global Styles */
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Styling the video feed */
+.vid-box {
+	margin-right: 8px;
+	margin-left: 8px;
+	margin-bottom: 8px;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 200px;
+	height: 200px;
+	background-color: #eee;
+	border-radius: 5px;
+	float: left;
+}
+.vid-box img {
+	margin-bottom: 1em;
+}
+@media (min-width: 992px) {
+	.vid-box {
+		width: 200px;
+	}
+}
+.pager {
+	text-align: center;
+	margin-top: 2em;
+	width: 100%;
+	display: block;
+	float: left;
+}
+.pager-item {
+	display: inline-block;
+	padding: 5px 7px;
+	background-color: #eee;
+	color: darkred;
+	margin: 5px;
+	cursor: pointer;
+}
+.pager-item:hover {
+	background-color: darkred;
+	color: #eee;
+}
+ul.categories {
+	list-style-type: none;
+	padding-left: 0;
+}
+ul.categories li {
+	color: darkred;
+	cursor: pointer;
+	margin-bottom: .5em;
+}
+ul.categories li:hover {
+	text-decoration: underline;
+}
+.all-videos-link {
+	padding-top: .5em;
+	border-top: 1px solid #eee;
+}

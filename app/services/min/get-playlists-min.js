@@ -1,0 +1,1 @@
+angular.module("YouTube Feed").service("getPlaylists",function(e,r,n){return{playlistQuery:function(o,t){var u=r.defer();return e({url:o,method:"GET",params:{part:"snippet",channelId:t,key:n}}).success(function(e){return console.log(e),u.resolve(e),u}).error(function(e){console.log(e),u.reject()}),u.promise}}});

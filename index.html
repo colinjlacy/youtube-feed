@@ -3,13 +3,20 @@
 <head>
 	<title>Not Scott's YouTube Channel</title>
 
+	<!--stylesheets-->
 	<link rel="stylesheet" href="css/bootstrap.min.css"/>
 	<link rel="stylesheet" href="css/bootstrap-theme.min.css"/>
+	<link rel="stylesheet" href="css/site.css"/>
 
+	<!--angular-->
 	<script src="angular/angular.min.js"></script>
 	<script src="angular/angular-route.min.js"></script>
+
+	<!--app-->
 	<script src="app/app.js"></script>
 	<script src="app/controllers/youtube-ctrl.js"></script>
+	<script src="app/services/get-videos.js"></script>
+	<script src="app/services/get-playlists.js"></script>
 
 </head>
 <body>
@@ -20,9 +27,7 @@
 		</div>
 	</header>
 	<section class="container">
-		<div class="row" ng-controller="youTubeCtrl">
-			<ng-view></ng-view>
-		</div>
+		<ng-view></ng-view>
 	</section>
 </body>
 </html>

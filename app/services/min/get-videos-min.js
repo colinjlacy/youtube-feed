@@ -1,0 +1,1 @@
+angular.module("YouTube Feed").service("getVideos",function(e,r,o){return{videoQuery:function(n,u,s,t){var l=r.defer();return e({url:n,method:"GET",params:{part:"snippet",playlistId:u,key:o,pageToken:s?s:"",maxResults:t?t:12}}).success(function(e){return console.log(e),l.resolve(e),l}).error(function(e){console.log(e),l.reject()}),l.promise}}});

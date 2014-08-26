@@ -1,28 +1,30 @@
 <div class="row" ng-controller="youTubeCtrl">
 
+	<!--Sidebar-->
 	<div class="col-xs-12 col-sm-3 col-lg-4">
-		<h3>Categories</h3>
+		<h3>Playlists</h3>
 		<ul class="categories">
-			<li ng-repeat="playlist in playlists.items" ng-click="viewPlaylist(playlist.id)">{{playlist.snippet.title}}</li>
-			<li class="all-videos-link" ng-show="playlistId" ng-click="viewAll()">All Videos</li>
+			<li ng-repeat="playlist in playlists.items" ng-click="viewPlaylist(playlist.id)"><a>{{playlist.snippet.title}}</a></li>
+			<li class="all-videos-link" ng-show="playlistId" ng-click="viewAll()"><a>All Videos</a></li>
 		</ul>
 	</div>
 
+	<!--Main Content-->
 	<div class="col-xs-12 col-sm-9 col-lg-8">
-		<div class="vid-box" ng-repeat="video in videos.items">
+		<a class="vid-box" ng-repeat="video in videos.items" ng-click="viewVideo(video.snippet.resourceId.videoId)">
 			<img src="{{video.snippet.thumbnails.medium.url}}" alt="{{video.snippet.title}} - {{video.snippet.channelTitle}}"/>
 			<p>{{video.snippet.title}}</p>
-		</div>
+		</a>
 
 		<!--pager-->
 		<div class="pager" ng-show="page && videos">
-			<span class="pager-item" ng-show="videos.prevPageToken" ng-click="pageQuery(videos.prevPageToken, -1)">
+			<a class="pager-item pager-link" ng-show="videos.prevPageToken" ng-click="pageQuery(videos.prevPageToken, -1)">
 				&laquo; Previous Page
-			</span>
+			</a>
 			<span class="pager-item">{{page}} of {{numberOfPages}}</span>
-			<span class="pager-item" ng-show="videos.nextPageToken" ng-click="pageQuery(videos.nextPageToken, 1)">
+			<a class="pager-item pager-link" ng-show="videos.nextPageToken" ng-click="pageQuery(videos.nextPageToken, 1)">
 				Next Page &raquo;
-			</span>
+			</a>
 		</div>
 
 	</div>

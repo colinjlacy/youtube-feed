@@ -32,10 +32,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="get-info.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="get-info.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/services/get-info.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="38" selection-start="541" selection-end="541" vertical-scroll-proportion="0.52884614" vertical-offset="0" max-vertical-offset="624">
+            <state line="8" column="29" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
               <folding />
             </state>
           </provider>
@@ -44,7 +44,7 @@
       <file leaf-file-name="youtube-ctrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/youtube-ctrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="46" selection-start="3466" selection-end="3466" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1470">
+            <state line="86" column="10" selection-start="3387" selection-end="3387" vertical-scroll-proportion="0.0" vertical-offset="846" max-vertical-offset="1470">
               <folding />
             </state>
           </provider>
@@ -53,16 +53,16 @@
       <file leaf-file-name="get-playlists.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/services/get-playlists.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="55" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+            <state line="1" column="55" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="555">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="video-ctrl.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="video-ctrl.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/video-ctrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="40" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+            <state line="12" column="40" selection-start="469" selection-end="469" vertical-scroll-proportion="0.15865384" vertical-offset="81" max-vertical-offset="705">
               <folding />
             </state>
           </provider>
@@ -71,7 +71,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="430" selection-end="430" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="705">
+            <state line="16" column="0" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="705">
               <folding />
             </state>
           </provider>
@@ -80,7 +80,7 @@
       <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="43" selection-start="32" selection-end="43" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="540">
+            <state line="9" column="0" selection-start="106" selection-end="380" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="540">
               <folding />
             </state>
           </provider>
@@ -89,7 +89,7 @@
       <file leaf-file-name="angular-youtube-embed.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/directives/angular-youtube-embed.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="85" selection-start="1262" selection-end="1311" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="3855">
+            <state line="13" column="85" selection-start="1262" selection-end="1311" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="3795">
               <folding />
             </state>
           </provider>
@@ -107,7 +107,7 @@
       <file leaf-file-name="video.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/video.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="12" selection-start="204" selection-end="204" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="180">
+            <state line="12" column="13" selection-start="563" selection-end="563" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="315">
               <folding />
             </state>
           </provider>
@@ -139,10 +139,10 @@
         <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/css/site.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/app/views/video.html" />
         <option value="$PROJECT_DIR$/app/services/get-playlists.js" />
-        <option value="$PROJECT_DIR$/app/controllers/youtube-ctrl.js" />
         <option value="$PROJECT_DIR$/app/services/get-info.js" />
+        <option value="$PROJECT_DIR$/app/views/video.html" />
+        <option value="$PROJECT_DIR$/app/controllers/youtube-ctrl.js" />
         <option value="$PROJECT_DIR$/app/controllers/video-ctrl.js" />
       </list>
     </option>
@@ -306,14 +306,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -324,15 +316,23 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -394,9 +394,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25346112" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -416,6 +416,76 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="18" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/get-info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="38" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/youtube-ctrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="46" selection-start="3466" selection-end="3466" vertical-scroll-proportion="0.0" vertical-offset="1335" max-vertical-offset="1470">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/get-playlists.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="55" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/video-ctrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="40" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="705">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="43" selection-start="32" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/directives/angular-youtube-embed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="85" selection-start="1262" selection-end="1311" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="3795">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/site.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="19" selection-start="1166" selection-end="1166" vertical-scroll-proportion="0.0" vertical-offset="516" max-vertical-offset="1215">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/video.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="12" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="34" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
@@ -593,21 +663,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ng/angular-route.min.js.map">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3210">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3210" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/site.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="74" column="19" selection-start="1166" selection-end="1166" vertical-scroll-proportion="0.0" vertical-offset="516" max-vertical-offset="1215">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="43" selection-start="32" selection-end="43" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="540">
           <folding />
         </state>
       </provider>
@@ -621,21 +682,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="430" selection-end="430" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="705">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/video.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="12" selection-start="204" selection-end="204" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="18" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+        <state line="16" column="0" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="705">
           <folding />
         </state>
       </provider>
@@ -647,23 +694,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/youtube-ctrl.js">
+    <entry file="file://$PROJECT_DIR$/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="46" selection-start="3466" selection-end="3466" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1470">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/video-ctrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="40" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+        <state line="2" column="18" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/services/get-info.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="38" selection-start="541" selection-end="541" vertical-scroll-proportion="0.52884614" vertical-offset="0" max-vertical-offset="624">
+        <state line="8" column="29" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="106" selection-end="380" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/video.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="563" selection-end="563" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/youtube-ctrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="10" selection-start="3387" selection-end="3387" vertical-scroll-proportion="0.0" vertical-offset="846" max-vertical-offset="1470">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/video-ctrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="40" selection-start="469" selection-end="469" vertical-scroll-proportion="0.15865384" vertical-offset="81" max-vertical-offset="705">
           <folding />
         </state>
       </provider>

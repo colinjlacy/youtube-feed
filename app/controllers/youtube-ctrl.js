@@ -84,7 +84,7 @@ angular.module("YouTube Feed")
 		$scope.viewAll = function() {
 			// reverts the path to the index route, so that the user can navigate back to the original listing
 			$location.path('/');
-		}
+		};
 
 		$scope.viewVideo = function(videoId) {
 			$location.path('/video/' + videoId);

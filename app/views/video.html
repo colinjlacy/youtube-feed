@@ -2,6 +2,15 @@
 	<div class="col-sm-8">
 		<!--the YouTube player embed-->
 		<youtube-video id="video-player" video-id="videoId" player-vars="playerVars"></youtube-video>
-		<h2></h2>
+		<h2>{{vid.items[0].snippet.title}}</h2>
+		{{vid.items[0].snippet.description}}
+	</div>
+	<div class="col-sm-4">
+		<h2>Playlists</h2>
+		<ul class="categories">
+			<li ng-repeat="playlist in playlists.items" ng-click="viewPlaylist(playlist.id)"><a>{{playlist.snippet.title}}</a></li>
+			<li class="all-videos-link" ng-click="viewAll()"><a>All Videos</a></li>
+		</ul>
+
 	</div>
 </div>

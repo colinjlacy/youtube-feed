@@ -28,6 +28,10 @@ angular.module("YouTube Feed")
 				$rootScope.error = errorMessage;
 			});
 
+		$scope.viewAll = function() {
+			// reverts the path to the index route, so that the user can navigate back to the original listing
+			$location.path('/');
+		};
 
 		// function that handles playlist browsing
 		$scope.viewPlaylist = function(playlistId) {

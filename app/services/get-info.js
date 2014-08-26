@@ -1,5 +1,5 @@
 angular.module("YouTube Feed")
-	.service("getInfo", function($http, $q, video) {
+	.service("getInfo", function($http, $q, video, apiKey) {
 		// defers a variable to be returned once an API call is complete
 		return {
 			videoInfo: function(videoId) {
@@ -10,13 +10,13 @@ angular.module("YouTube Feed")
 					method: "GET",
 					params: {
 						part: "contentDetails, snippet",
-						id: videoId
+						id: videoId,
+						key: apiKey
 					}
 				})
 					.success(function(data) {
 						console.log(data);
 						info.resolve(data);
-						return info;
 					})
 					.error(function(error) {
 						console.log(error);

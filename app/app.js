@@ -27,6 +27,6 @@ angular.module("YouTube Feed", [
 				templateUrl: 'app/views/main.html'
 			})
 			.when('/video/:videoId', {
-				templateUrl: 'app/views/video.html'
+				templateUrl: 'app/views/main.html'
 			})
 	});

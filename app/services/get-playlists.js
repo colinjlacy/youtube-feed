@@ -13,11 +13,11 @@ angular.module("YouTube Feed")
 					params: {
 						part: "snippet",
 						channelId: channelID,
-						key: apiKey
+						key: apiKey,
+						maxResults: 50
 					}
 				})
 					.success(function(data) {
-						console.log(data);
 						playlists.resolve(data);
 						return playlists;
 					})

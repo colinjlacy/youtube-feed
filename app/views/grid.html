@@ -1,0 +1,24 @@
+<!--Video Grid-->
+<a class="vid-box" ng-repeat="video in videos.items" ng-click="viewVideo(video.snippet.resourceId.videoId)">
+	<!--video thumbnail-->
+	<img src="{{video.snippet.thumbnails.medium.url}}" alt="{{video.snippet.title}} - {{video.snippet.channelTitle}}"/>
+
+	<!--video title-->
+	<p>{{video.snippet.title}}</p>
+</a>
+
+<!--pager-->
+<div class="pager" ng-show="page && videos">
+	<!--previous page, if there is one-->
+	<a class="pager-item pager-link" ng-show="videos.prevPageToken" ng-click="pageQuery(videos.prevPageToken, -1)">
+		&laquo; Previous Page
+	</a>
+
+	<!--page number display-->
+	<span class="pager-item">{{page}} of {{numberOfPages}}</span>
+
+	<!--next page, if there is one-->
+	<a class="pager-item pager-link" ng-show="videos.nextPageToken" ng-click="pageQuery(videos.nextPageToken, 1)">
+		Next Page &raquo;
+	</a>
+</div>

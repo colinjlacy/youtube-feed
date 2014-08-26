@@ -5,27 +5,13 @@
 		<h3>Playlists</h3>
 		<ul class="categories">
 			<li ng-repeat="playlist in playlists.items" ng-click="viewPlaylist(playlist.id)"><a>{{playlist.snippet.title}}</a></li>
-			<li class="all-videos-link" ng-show="playlistId" ng-click="viewAll()"><a>All Videos</a></li>
+			<li class="all-videos-link" ng-show="playlistId || videoId" ng-click="viewAll()"><a>All Videos</a></li>
 		</ul>
+		<a ng-show="videoId" class="return-link" ng-click="destroy()">&laquo; Return to Video Listing</a>
 	</div>
 
 	<!--Main Content-->
-	<div class="col-xs-12 col-sm-9 col-lg-8">
-		<a class="vid-box" ng-repeat="video in videos.items" ng-click="viewVideo(video.snippet.resourceId.videoId)">
-			<img src="{{video.snippet.thumbnails.medium.url}}" alt="{{video.snippet.title}} - {{video.snippet.channelTitle}}"/>
-			<p>{{video.snippet.title}}</p>
-		</a>
-
-		<!--pager-->
-		<div class="pager" ng-show="page && videos">
-			<a class="pager-item pager-link" ng-show="videos.prevPageToken" ng-click="pageQuery(videos.prevPageToken, -1)">
-				&laquo; Previous Page
-			</a>
-			<span class="pager-item">{{page}} of {{numberOfPages}}</span>
-			<a class="pager-item pager-link" ng-show="videos.nextPageToken" ng-click="pageQuery(videos.nextPageToken, 1)">
-				Next Page &raquo;
-			</a>
-		</div>
-
+	<div class="col-xs-12 col-sm-9 col-lg-8" ng-include="includePart">
+		<!--The vid-grid or video display will go here-->
 	</div>
 </div>

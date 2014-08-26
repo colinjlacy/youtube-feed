@@ -15,7 +15,6 @@ angular.module("YouTube Feed")
 					}
 				})
 					.success(function(data) {
-						console.log(data);
 						info.resolve(data);
 					})
 					.error(function(error) {

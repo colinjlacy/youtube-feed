@@ -10,7 +10,7 @@ angular.module("YouTube Feed", [
 	// the base url for revtrieving single videos
 	.value("video", "https://www.googleapis.com/youtube/v3/videos/")
 	// Google developers API key
-	.value("apiKey", "AIzaSyCtqoUiPBtbyl0ffipqLyhahc5SUs8K-nU")
+	.value("apiKey", "YOUR API KEY")
 	// channel ID for the channel in question
 	.value("channelId", "UCrYqUsxL8UbAbk6wP-9_tig")
 	// playlist id for the Uploads playlist, the default playlist for all uploaded vids on a YouTube Channel
